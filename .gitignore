@@ -27,3 +27,8 @@ Thumbs.db
 # VSCode and JetBrains IDE folders
 .vscode/
 .idea/
+
+# Solana keypairs and wallet secrets (never commit generated private keys)
+**/keypair.json
+**/*_keypair.json
+**/*-keypair.json
